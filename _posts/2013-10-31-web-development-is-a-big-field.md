@@ -2,9 +2,7 @@
 title: '"Web Development" is a big field'
 description: >
     Thoughts on where I'd like to go within the field of web development
-slug: web-development-is-a-big-field
 layout: post
-date: 2013-10-31
 ---
 I've been thinking a lot about what I'd like to be doing inside this big
 buzzword we know as web development.

@@ -3,9 +3,7 @@ title: Using systemd template files
 description: >
     I ran into some problems setting up systemd template files. Here's how I
     solved them.
-slug: using-systemd-template-files
 layout: post
-date: 2013-01-27
 ---
 Arch Linux ships with [systemd][] as the system management daemon. It's very
 cool, but I struggled for an embarassing amount of time with getting it to start

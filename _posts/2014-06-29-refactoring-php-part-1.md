@@ -2,9 +2,7 @@
 title: Refactoring a PHP application, part 1
 description: >
     An introduction to the idea of refactoring a PHP application
-slug: refactoring-php-part-1
 layout: post
-date: 2014-06-29
 ---
 
 >This is the first post in the series. The second post is [available

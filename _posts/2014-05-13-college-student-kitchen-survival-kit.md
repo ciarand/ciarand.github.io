@@ -2,9 +2,7 @@
 title: A college student's kitchen survival kit
 description: >
     A short list of kitchen things that have become indispensable for me
-slug: college-student-kitchen-survival-kit
 layout: post
-date: 2014-05-13
 ---
 
 Since moving out on my own there have been a few pieces of kitchenware that have

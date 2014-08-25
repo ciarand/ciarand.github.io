@@ -2,9 +2,7 @@
 title: Moving to Arch Linux
 description: >
     Moving my development machine to Arch Linux
-slug: moving-to-arch-linux
 layout: post
-date: 2013-01-23
 ---
 This post does not have a cute title. I'm moving my main development environment
 to Arch Linux from Mac OS X (10.9, although the version is mostly unimportant).

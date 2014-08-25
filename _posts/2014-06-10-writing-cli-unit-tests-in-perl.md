@@ -3,9 +3,7 @@ title: Writing CLI unit tests in Perl
 description: >
     I recently had to write some unit tests for a small (C) cli script that I
     was writing for an assignment
-slug: writing-cli-unit-tests-in-perl
 layout: post
-date: 2014-06-10
 ---
 
 I was recently asked to write a small C script for reading some basic system

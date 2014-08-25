@@ -3,9 +3,7 @@ title: Decoupling for Better Testing
 description: >
     Unless you start out with the right mindset, an application's
     natural progression is toward chaos, inefficiency, and disorder.
-slug: decoupling-for-better-testing
 layout: post
-date: 2013-10-08
 ---
 Unless you start out with the right mindset, an application's natural
 progression is toward chaos, inefficiency, and disorder.

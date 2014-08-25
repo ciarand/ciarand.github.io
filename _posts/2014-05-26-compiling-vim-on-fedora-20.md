@@ -3,9 +3,7 @@ title: Compiling Vim on Fedora 20
 description: >
     I ended up needing to compile Vim from scratch on F20, and it was more of
     an ordeal than I'd hoped. Here's how I did it.
-slug: compiling-vim-on-fedora-20
 layout: post
-date: 2014-05-26
 ---
 
 Vim is my editor of choice. I was recently playing around with a Fedora
