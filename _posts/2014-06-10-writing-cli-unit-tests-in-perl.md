@@ -36,7 +36,7 @@ int main(int argc, const char* argv[]) {
 
 Easy enough, we can test this. Here's our test script:
 
-```php
+```perl
 #!/usr/bin/env perl -w
 
 use strict;
@@ -52,7 +52,7 @@ ok(`./script foo bar baz` =~ /3 arguments$/, "3 args");
 
 Super simple. Let's go over the parts of the script.
 
-```php
+```perl
 #!/usr/bin/env perl -w
 ```
 
@@ -66,7 +66,7 @@ acceptable.
 
 [correction-source]: https://alpha.app.net/cmd/post/32317081
 
-```php
+```perl
 use Test::Simple tests => 4;
 ```
 Use the `Test::Simple` pod. The most important part here is the `tests => 4`,
@@ -74,7 +74,7 @@ which is where we tell the script that we're planning to run 4 tests. That way
 it knows that if a different number of tests are run something went wrong and
 it'll tell us.
 
-```php
+```perl
 ok(`./script` =~ /no arguments$/, "no args")
 ok(`./script foo` =~ /1 argument$/, "1 arg")
 ok(`./script foo bar` =~ /2 arguments$/, "2 args")
@@ -91,7 +91,7 @@ the string on the left.
 
 Running the script gets us:
 
-```tap
+```
 λ ./test.pl
 1..4
 ok 1 - no args
