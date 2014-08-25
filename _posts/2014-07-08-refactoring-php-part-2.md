@@ -124,7 +124,7 @@ require "vendor/autoload.php";
 use Ciarand\Router;
 
 // where you keep your scripts (outside of the public web dir)
-$handler_dir = __DIR__ "/../handler";
+$handler_dir = __DIR__ . "/../handler";
 
 // the script you'd like to handle 404s with
 // (this isn't strictly necessary, but it's a nice touch)
