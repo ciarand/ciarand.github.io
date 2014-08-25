@@ -3,7 +3,7 @@ markdown:         redcarpet
 highlighter:      true
 
 # Permalinks
-permalink:        pretty
+permalink:        "/posts/:title"
 
 # Setup
 title:            ciarand.me
@@ -15,10 +15,4 @@ paginate:         3
 
 author:
   name:           'Ciaran Downey'
-  url:            https://github.com/ciarand
-
-# Custom vars
-version:          1.0.0
-
-github:
-  repo:           https://github.com/poole/lanyon
+  github:            https://github.com/ciarand
