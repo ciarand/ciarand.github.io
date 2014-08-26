@@ -8,7 +8,7 @@ layout: post
 >This is the second post in the series. The first post is [available
 >here][first_post].
 
-[first_post]: http://ciarand.me/posts/refactoring-php-part-1/
+[first_post]: {% post_url 2014-06-29-refactoring-php-part-1 %}
 
 In the last post we talked about exactly what we'd be working with, and more
 importantly what we want to end up with. In this post we'll be talking about

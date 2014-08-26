@@ -8,7 +8,7 @@ layout: post
 >This is the first post in the series. The second post is [available
 >here][second_post].
 
-[second_post]: http://ciarand.me/posts/refactoring-php-part-2/
+[second_post]: {% post_url 2014-07-08-refactoring-php-part-2 %}
 
 There's been a refreshing wave of change in the way we build web applications in
 PHP over the last few years. The advent of [Composer][] and the wave of modular,
