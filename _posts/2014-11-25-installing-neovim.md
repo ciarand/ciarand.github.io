@@ -6,6 +6,10 @@ description: >
 layout: post
 ---
 
+Update: This isn't necessarily up to date any more. Check the [Neovim
+wiki](https://github.com/neovim/neovim/wiki/Installing-Neovim) for the most
+up-to-date instructions.
+
 [Neovim][nvim] has been moving along quite steadily over the last six months,
 and it's finally starting to hit a level of stability where I feel comfortable
 using it full-time. I did have to jump through a few minor hoops to get it
