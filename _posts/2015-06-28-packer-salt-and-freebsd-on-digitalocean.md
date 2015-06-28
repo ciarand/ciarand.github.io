@@ -178,8 +178,8 @@ directory trees in order to make sure everything runs correctly.
 
 The part that gave me the most trouble here is that `execute_command` line.
 FreeBSD's default shell (`tcsh`) doesn't like the way Packer specifies
-environment variables, so we have to adjust the template it uses. The default
-template is:
+environment variables, so we have to adjust the template it uses. The [default
+template is][ex default]:
 
 ```sh
 chmod +x {{.Path}}; {{.Vars}} {{.Path}}
