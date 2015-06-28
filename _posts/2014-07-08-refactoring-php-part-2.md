@@ -156,3 +156,16 @@ direction of moving toward a more automated, test-friendly system.
 
 In the next post we'll go over how to add some functional tests so we can be
 sure our future efforts don't break anything.
+
+Update (2015-06-28): There's a ton of really good materials on this topic that
+were released either while I was writing this post or right after. Instead of
+regurgitating all that, here's a list of helpful resources on the topics of
+testing and refactoring legacy PHP applications:
+
+- [Intuitive Integration Testing][iit] (Laracasts, the first 3 episodes are free)
+- [Modernizing Legacy Applications in PHP][mlaphp]
+- [Refactoring Legacy Code][rlc]
+
+[iit]: https://laracasts.com/series/intuitive-integration-testing
+[mlaphp]: https://leanpub.com/mlaphp
+[rlc]: http://code.tutsplus.com/tutorials/refactoring-legacy-code-part-1-the-golden-master--cms-20331
