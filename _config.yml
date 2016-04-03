@@ -1,9 +1,20 @@
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
+gems: [jekyll-paginate]
+
+exclude:
+    - Makefile
+    - gulpfile.js
+    - package.json
+    - README.md
+    - Gemfile
+    - Gemfile.lock
+    - .editorconfig
+    - .git
 
 # Permalinks
-permalink:        "/posts/:title"
+permalink: "/posts/:title/"
 
 # Setup
 title:            ciarand.me
