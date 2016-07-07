@@ -6,6 +6,8 @@ gems: [jekyll-paginate]
 exclude:
     - .editorconfig
     - .env
+    - .firebaserc
+    - firebase.json
     - .git
     - .gitignore
     - Gemfile

@@ -42,3 +42,6 @@ validation-report.json
 /bower_components
 /bin
 /.bundle
+
+# minified files
+/css/style.min.css

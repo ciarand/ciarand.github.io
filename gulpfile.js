@@ -16,7 +16,7 @@ gulp.task("minifycss", function () {
         }
 
         gulp.src(cssfiles)
-            .pipe(concat("style.css"))
+            .pipe(concat("style.min.css"))
             .pipe(uncss({
                 html: htmlfiles
             }))
