@@ -17,6 +17,10 @@ exclude:
     - gulpfile.js
     - node_modules
     - package.json
+    - deploy.sh
+    - css/lanyon.css
+    - css/poole.css
+    - css/syntax.css
 
 # Permalinks
 permalink: "/posts/:title/"
