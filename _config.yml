@@ -6,15 +6,18 @@ gems: [jekyll-paginate]
 exclude:
     - .editorconfig
     - .env
+    - .git
     - .gitignore
+    - Gemfile
+    - Gemfile.lock
     - Makefile
     - README.md
     - gulpfile.js
-    - package.json
     - node_modules
+    - package.json
 
 # Permalinks
-permalink:        "/posts/:title"
+permalink: "/posts/:title/"
 
 # Setup
 title:            ciarand.me

@@ -1,12 +1,15 @@
 default: _site
 
+.PHONY: serve
+serve:
+	bundle exec jekyll s
+
 .PHONY: deploy
-deploy:
+deploy: _site
 	firebase deploy
 
 _site: css/style.css
-	jekyll build
+	bundle exec jekyll b
 
 css/style.css: css/lanyon.css css/poole.css css/syntax.css
 	npm run css
-
