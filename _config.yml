@@ -1,6 +1,17 @@
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
+gems: [jekyll-paginate]
+
+exclude:
+    - .editorconfig
+    - .env
+    - .gitignore
+    - Makefile
+    - README.md
+    - gulpfile.js
+    - package.json
+    - node_modules
 
 # Permalinks
 permalink:        "/posts/:title"

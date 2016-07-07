@@ -8,6 +8,6 @@
     "gulp-minify-css": "^0.3.7"
   },
   "scripts": {
-    "build": "gulp"
+    "css": "gulp"
   }
 }
