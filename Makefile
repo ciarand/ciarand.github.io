@@ -16,11 +16,7 @@ clean:
 _site: css
 	bundle exec jekyll b
 
-bin/minify_css: cmd/minify_css/minify_css.go
-	mkdir -p bin
-	go build -o bin/minify_css ./cmd/minify_css
-
-css_files := $(wildcard src/css/*.css)
-css/style.min.css: $(css_files) bin/minify_css
+# relies on tdewolff/minify/tree/master/cmd/minify
+css/style.min.css: $(wildcard src/css/*.css)
 	mkdir -p css
-	cat $(css_files) | bin/minify_css > $@
+	cat $^ | minify --type=css > $@
