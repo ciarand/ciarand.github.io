@@ -18,9 +18,9 @@ exclude:
     - node_modules
     - package.json
     - deploy.sh
-    - css/lanyon.css
-    - css/poole.css
-    - css/syntax.css
+    - src
+    - cmd
+    - bin
 
 # Permalinks
 permalink: "/posts/:title/"
@@ -31,8 +31,8 @@ tagline:          'another code blog'
 description:      ''
 url:              http://ciarand.me
 baseurl:          '/'
-paginate:         3
+paginate:         5
 
 author:
   name:           'Ciaran Downey'
-  github:            https://github.com/ciarand
+  github:         https://github.com/ciarand
