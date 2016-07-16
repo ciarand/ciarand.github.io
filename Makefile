@@ -1,21 +1,26 @@
-default: _site
+.PHONY: default serve deploy site css clean
 
-.PHONY: serve
+default: site
+css: css/style.min.css
+site: _site
+
 serve: css
 	bundle exec jekyll s
 
-.PHONY: deploy
 deploy: site
 	./deploy.sh
 
-.PHONY: clean
 clean:
-	rm -rf _site css/style.min.css
+	rm -rf _site css/ bin/
 
-site: _site
 _site: css
 	bundle exec jekyll b
 
-css: css/style.min.css
-css/style.min.css: css/lanyon.css css/poole.css css/syntax.css
-	npm run css
+bin/minify_css: cmd/minify_css/minify_css.go
+	mkdir -p bin
+	go build -o bin/minify_css ./cmd/minify_css
+
+css_files := $(wildcard src/css/*.css)
+css/style.min.css: $(css_files) bin/minify_css
+	mkdir -p css
+	cat $(css_files) | bin/minify_css > $@
